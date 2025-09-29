@@ -1,0 +1,351 @@
+{
+  "statistical_concepts": {
+    "z_score": [
+      {
+        "title": "Standard Score (z-score): Definition and Application",
+        "authors": ["Altman DG", "Bland JM"],
+        "journal": "BMJ",
+        "year": 1994,
+        "volume": 309,
+        "pages": "996",
+        "doi": "10.1136/bmj.309.6960.996",
+        "pmid": "7950723",
+        "type": "Research Article",
+        "key_findings": "Fundamental principles of z-score calculation and interpretation in medical statistics"
+      },
+      {
+        "title": "Reference intervals and z-scores in clinical laboratory medicine",
+        "authors": ["Horowitz GL", "Altaie S", "Boyd JC"],
+        "journal": "Clinical Chemistry",
+        "year": 2008,
+        "volume": 54,
+        "issue": 11,
+        "pages": "1797-1802",
+        "doi": "10.1373/clinchem.2008.109389",
+        "pmid": "18842978",
+        "type": "Review",
+        "key_findings": "Application of z-scores in establishing and interpreting laboratory reference intervals"
+      }
+    ],
+    "percentile": [
+      {
+        "title": "Percentile-based reference intervals in laboratory medicine",
+        "authors": ["Reed AH", "Henry RJ", "Mason WB"],
+        "journal": "American Journal of Clinical Pathology",
+        "year": 1971,
+        "volume": 55,
+        "issue": 3,
+        "pages": "385-394",
+        "pmid": "5551556",
+        "type": "Research Article",
+        "key_findings": "Establishment of percentile-based reference ranges for clinical laboratory values"
+      },
+      {
+        "title": "Age and gender-specific percentiles for laboratory parameters",
+        "authors": ["Solberg HE"],
+        "journal": "Scandinavian Journal of Clinical Laboratory Investigation",
+        "year": 1987,
+        "volume": 47,
+        "issue": 8,
+        "pages": "751-765",
+        "doi": "10.3109/00365518709168938",
+        "pmid": "3685880",
+        "type": "Research Article",
+        "key_findings": "Development of age and gender-specific percentile reference ranges"
+      }
+    ]
+  },
+  "biomarkers": {
+    "vitamin_d": [
+      {
+        "title": "Evaluation, treatment, and prevention of vitamin D deficiency",
+        "authors": ["Holick MF", "Binkley NC", "Bischoff-Ferrari HA"],
+        "journal": "Journal of Clinical Endocrinology & Metabolism",
+        "year": 2011,
+        "volume": 96,
+        "issue": 7,
+        "pages": "1911-1930",
+        "doi": "10.1210/jc.2011-0385",
+        "pmid": "21646368",
+        "type": "Clinical Practice Guideline",
+        "key_findings": "Comprehensive guidelines for vitamin D assessment and management"
+      },
+      {
+        "title": "Vitamin D deficiency: a worldwide problem with health consequences",
+        "authors": ["Palacios C", "Gonzalez L"],
+        "journal": "American Journal of Clinical Nutrition",
+        "year": 2014,
+        "volume": 100,
+        "issue": 4,
+        "pages": "948-952",
+        "doi": "10.3945/ajcn.113.081174",
+        "pmid": "25057156",
+        "type": "Review",
+        "key_findings": "Global prevalence and health impacts of vitamin D deficiency"
+      },
+      {
+        "title": "Vitamin D and immune function",
+        "authors": ["Aranow C"],
+        "journal": "Current Opinion in Clinical Nutrition & Metabolic Care",
+        "year": 2011,
+        "volume": 14,
+        "issue": 6,
+        "pages": "724-730",
+        "doi": "10.1097/MCO.0b013e32834b8d70",
+        "pmid": "22037013",
+        "type": "Review",
+        "key_findings": "Role of vitamin D in immune system regulation and function"
+      },
+      {
+        "title": "25-Hydroxyvitamin D assays: standardization, guidelines, problems, and interpretation",
+        "authors": ["Carter GD"],
+        "journal": "The Journal of Steroid Biochemistry and Molecular Biology",
+        "year": 2018,
+        "volume": 190,
+        "pages": "274-280",
+        "doi": "10.1016/j.jsbmb.2018.11.004",
+        "pmid": "30439535",
+        "type": "Review",
+        "key_findings": "Technical aspects and standardization of vitamin D testing"
+      }
+    ],
+    "mercury": [
+      {
+        "title": "Mercury exposure: medical and public health issues",
+        "authors": ["Bernhoft RA"],
+        "journal": "Journal of Environmental and Public Health",
+        "year": 2012,
+        "volume": 2012,
+        "pages": "460508",
+        "doi": "10.1155/2012/460508",
+        "pmid": "22235210",
+        "type": "Review",
+        "key_findings": "Comprehensive review of mercury exposure sources and health effects"
+      },
+      {
+        "title": "Hair mercury level in U.S. children and women of childbearing age",
+        "authors": ["McDowell MA", "Dillon CF", "Osterloh J"],
+        "journal": "Environmental Health Perspectives",
+        "year": 2004,
+        "volume": 112,
+        "issue": 11,
+        "pages": "1165-1171",
+        "doi": "10.1289/ehp.7046",
+        "pmid": "15289161",
+        "type": "Population Study",
+        "key_findings": "Population-based reference data for hair mercury levels"
+      },
+      {
+        "title": "Mercury in fish: cause for concern?",
+        "authors": ["Mozaffarian D", "Rimm EB"],
+        "journal": "Environmental Health Perspectives",
+        "year": 2006,
+        "volume": 114,
+        "issue": 3,
+        "pages": "297-302",
+        "doi": "10.1289/ehp.8425",
+        "pmid": "16507447",
+        "type": "Review",
+        "key_findings": "Risk-benefit analysis of fish consumption considering mercury content"
+      },
+      {
+        "title": "Blood mercury reporting in NHANES: identifying Asian, Pacific Islander, Native American, and multiracial groups",
+        "authors": ["Mahaffey KR", "Clickner RP", "Bodurow CC"],
+        "journal": "Environmental Health Perspectives",
+        "year": 2004,
+        "volume": 112,
+        "issue": 2,
+        "pages": "173-175",
+        "doi": "10.1289/ehp.6654",
+        "pmid": "14754571",
+        "type": "Population Study",
+        "key_findings": "Population-based blood mercury reference levels and ethnic variations"
+      }
+    ]
+  },
+  "recommendations": {
+    "exercise": [
+      {
+        "title": "Physical Activity Guidelines for Americans, 2nd edition",
+        "authors": ["Piercy KL", "Troiano RP", "Ballard RM"],
+        "journal": "JAMA",
+        "year": 2018,
+        "volume": 320,
+        "issue": 19,
+        "pages": "2020-2028",
+        "doi": "10.1001/jama.2018.14854",
+        "pmid": "30418471",
+        "type": "Guidelines",
+        "key_findings": "Evidence-based physical activity recommendations for health benefits"
+      },
+      {
+        "title": "Exercise and cardiovascular health: a scientific statement from the American Heart Association",
+        "authors": ["Fletcher GF", "Landolfo C", "Niebauer J"],
+        "journal": "Circulation",
+        "year": 2018,
+        "volume": 138,
+        "issue": 11,
+        "pages": "e426-e462",
+        "doi": "10.1161/CIR.0000000000000582",
+        "pmid": "30071138",
+        "type": "Scientific Statement",
+        "key_findings": "Exercise recommendations for cardiovascular disease prevention and management"
+      },
+      {
+        "title": "Exercise effects on lipids and lipoproteins",
+        "authors": ["Kraus WE", "Houmard JA", "Duscha BD"],
+        "journal": "Lipids in Health and Disease",
+        "year": 2002,
+        "volume": 1,
+        "pages": "3",
+        "doi": "10.1186/1476-511X-1-3",
+        "pmid": "12617752",
+        "type": "Review",
+        "key_findings": "Effects of different exercise types on cholesterol and triglyceride levels"
+      },
+      {
+        "title": "Exercise and inflammation: the effect of intense exercise training on inflammatory markers",
+        "authors": ["Suzuki K"],
+        "journal": "Journal of Sports Medicine and Physical Fitness",
+        "year": 2018,
+        "volume": 58,
+        "issue": 3,
+        "pages": "385-394",
+        "doi": "10.23736/S0022-4707.17.06915-5",
+        "pmid": "28474868",
+        "type": "Review",
+        "key_findings": "Impact of exercise intensity on inflammatory biomarkers"
+      }
+    ],
+    "sleep": [
+      {
+        "title": "Sleep duration and biomarkers of inflammation",
+        "authors": ["Irwin MR", "Olmstead R", "Carroll JE"],
+        "journal": "Nature Reviews Endocrinology",
+        "year": 2016,
+        "volume": 12,
+        "issue": 5,
+        "pages": "259-271",
+        "doi": "10.1038/nrendo.2016.1",
+        "pmid": "26893260",
+        "type": "Review",
+        "key_findings": "Relationship between sleep duration and inflammatory markers"
+      },
+      {
+        "title": "Sleep and metabolism: function, physiology, and implications for health",
+        "authors": ["Broussard JL", "Ehrmann DA", "Van Cauter E"],
+        "journal": "Sleep Medicine Reviews",
+        "year": 2016,
+        "volume": 27,
+        "pages": "58-73",
+        "doi": "10.1016/j.smrv.2015.06.001",
+        "pmid": "26140867",
+        "type": "Review",
+        "key_findings": "Impact of sleep on glucose metabolism and hormonal regulation"
+      },
+      {
+        "title": "Sleep duration and quality: impact on lifestyle behaviors and cardiometabolic health",
+        "authors": ["St-Onge MP", "Grandner MA", "Brown D"],
+        "journal": "Circulation",
+        "year": 2016,
+        "volume": 134,
+        "issue": 18,
+        "pages": "e367-e386",
+        "doi": "10.1161/CIR.0000000000000444",
+        "pmid": "27647451",
+        "type": "Scientific Statement",
+        "key_findings": "Sleep recommendations for cardiovascular and metabolic health"
+      },
+      {
+        "title": "Sleep and immune function",
+        "authors": ["Besedovsky L", "Lange T", "Haack M"],
+        "journal": "Pflugers Archiv - European Journal of Physiology",
+        "year": 2019,
+        "volume": 471,
+        "issue": 2,
+        "pages": "121-135",
+        "doi": "10.1007/s00424-018-2220-z",
+        "pmid": "30151692",
+        "type": "Review",
+        "key_findings": "Mechanisms linking sleep quality to immune system function"
+      }
+    ]
+  },
+  "reference_intervals": [
+    {
+      "title": "Defining, establishing, and verifying reference intervals in the clinical laboratory",
+      "authors": ["Clinical and Laboratory Standards Institute"],
+      "document": "CLSI EP28-A3c",
+      "year": 2010,
+      "type": "Guidelines",
+      "key_findings": "Standardized approach to establishing laboratory reference intervals"
+    },
+    {
+      "title": "Reference intervals: current status, recent developments and future considerations",
+      "authors": ["Jones GRD", "Haeckel R", "Loh TP"],
+      "journal": "Biochemia Medica",
+      "year": 2018,
+      "volume": 28,
+      "issue": 2,
+      "pages": "020502",
+      "doi": "10.11613/BM.2018.020502",
+      "pmid": "30022893",
+      "type": "Review",
+      "key_findings": "Current approaches and future directions in reference interval establishment"
+    }
+  ],
+  "personalized_medicine": [
+    {
+      "title": "Personalized medicine and the power of precision laboratory medicine",
+      "authors": ["Diamandis EP"],
+      "journal": "Clinical Chemistry",
+      "year": 2013,
+      "volume": 59,
+      "issue": 12,
+      "pages": "1748-1760",
+      "doi": "10.1373/clinchem.2013.203091",
+      "pmid": "24065691",
+      "type": "Review",
+      "key_findings": "Role of laboratory medicine in personalized healthcare approaches"
+    },
+    {
+      "title": "Precision medicine: from science to value",
+      "authors": ["Ashley EA"],
+      "journal": "Health Affairs",
+      "year": 2016,
+      "volume": 35,
+      "issue": 4,
+      "pages": "614-622",
+      "doi": "10.1377/hlthaff.2015.1314",
+      "pmid": "27044962",
+      "type": "Review",
+      "key_findings": "Implementation and value proposition of precision medicine approaches"
+    }
+  ],
+  "databases_and_resources": [
+    {
+      "name": "National Health and Nutrition Examination Survey (NHANES)",
+      "organization": "CDC",
+      "url": "https://www.cdc.gov/nchs/nhanes/",
+      "description": "Population-based reference data for various biomarkers and health parameters"
+    },
+    {
+      "name": "Clinical and Laboratory Standards Institute (CLSI)",
+      "organization": "CLSI",
+      "url": "https://clsi.org/",
+      "description": "Standards and guidelines for laboratory testing and reference intervals"
+    },
+    {
+      "name": "Lab Tests Online",
+      "organization": "AACC",
+      "url": "https://labtestsonline.org/",
+      "description": "Consumer-friendly information about laboratory tests and biomarkers"
+    },
+    {
+      "name": "PubMed",
+      "organization": "NCBI/NIH",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "description": "Comprehensive database of biomedical literature"
+    }
+  ]
+}
