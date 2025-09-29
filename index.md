@@ -1,6 +1,6 @@
 # Wellness Multiomics Knowledge Base
 
 ## Contents
-- [Statistical Concepts](docs/statistical-concepts/)
-- [Biomarkers](docs/biomarkers/)
-- [Recommendations](docs/recommendations/)
+- [Statistical Concepts](docs/stats/)
+- [Biomarkers](docs/bms/)
+- [Recommendations](docs/recs/)
