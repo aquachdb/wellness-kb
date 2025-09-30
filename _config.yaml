@@ -1,0 +1,33 @@
+title: Wellness Multiomics Knowledge Base
+description: Educational resources for biomarkers and wellness
+
+collections:
+  stats:
+    output: true
+    permalink: /docs/stats/:name/
+  bms:
+    output: true
+    permalink: /docs/bms/:name/
+  recs:
+    output: true
+    permalink: /docs/recs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "stats"
+    values:
+      layout: "page"
+      category: "Statistical Concepts"
+  - scope:
+      path: ""
+      type: "bms"
+    values:
+      layout: "page"
+      category: "Biomarkers"
+  - scope:
+      path: ""
+      type: "recs"
+    values:
+      layout: "page"
+      category: "Recommendations"
