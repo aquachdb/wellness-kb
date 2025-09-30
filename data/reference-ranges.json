@@ -1,0 +1,329 @@
+{
+  "reference_ranges": {
+    "vitamin_d": {
+      "biomarker_name": "25-Hydroxyvitamin D [25(OH)D]",
+      "units": "ng/mL",
+      "ranges": {
+        "severe_deficiency": {
+          "min": 0,
+          "max": 10,
+          "description": "Severe deficiency - high risk of rickets/osteomalacia"
+        },
+        "deficiency": {
+          "min": 10,
+          "max": 19,
+          "description": "Deficiency - increased risk of bone disease"
+        },
+        "insufficiency": {
+          "min": 20,
+          "max": 29,
+          "description": "Insufficiency - suboptimal for bone health"
+        },
+        "sufficiency": {
+          "min": 30,
+          "max": 100,
+          "description": "Sufficiency - optimal for bone and overall health"
+        },
+        "potential_toxicity": {
+          "min": 100,
+          "max": 999,
+          "description": "Potential toxicity - risk of hypercalcemia"
+        }
+      },
+      "optimal_range": {
+        "min": 30,
+        "max": 50,
+        "description": "Optimal range for general wellness"
+      },
+      "population_percentiles": {
+        "5th": 15,
+        "10th": 18,
+        "25th": 24,
+        "50th": 32,
+        "75th": 42,
+        "90th": 55,
+        "95th": 68
+      }
+    },
+    "mercury_blood": {
+      "biomarker_name": "Mercury, Blood",
+      "units": "μg/L",
+      "ranges": {
+        "optimal": {
+          "min": 0,
+          "max": 5.0,
+          "description": "Minimal exposure, optimal health"
+        },
+        "low_concern": {
+          "min": 5.0,
+          "max": 10.0,
+          "description": "Low concern, acceptable for most individuals"
+        },
+        "moderate_concern": {
+          "min": 10.0,
+          "max": 20.0,
+          "description": "Moderate concern, consider reducing exposure"
+        },
+        "high_concern": {
+          "min": 20.0,
+          "max": 50.0,
+          "description": "High concern, significant exposure"
+        },
+        "toxic": {
+          "min": 50.0,
+          "max": 999,
+          "description": "Toxic levels, medical intervention needed"
+        }
+      },
+      "optimal_range": {
+        "min": 0,
+        "max": 5.0,
+        "description": "Optimal range for minimal mercury exposure"
+      },
+      "epa_reference_dose_equivalent": 5.8
+    },
+    "mercury_hair": {
+      "biomarker_name": "Mercury, Hair",
+      "units": "μg/g",
+      "ranges": {
+        "low": {
+          "min": 0,
+          "max": 1.0,
+          "description": "Low exposure from dietary sources"
+        },
+        "moderate": {
+          "min": 1.0,
+          "max": 2.0,
+          "description": "Moderate exposure, typical fish consumer"
+        },
+        "elevated": {
+          "min": 2.0,
+          "max": 5.0,
+          "description": "Elevated exposure, high fish consumption"
+        },
+        "concerning": {
+          "min": 5.0,
+          "max": 10.0,
+          "description": "Concerning levels, excessive exposure"
+        },
+        "toxic": {
+          "min": 10.0,
+          "max": 999,
+          "description": "Toxic levels, health risk threshold"
+        }
+      },
+      "optimal_range": {
+        "min": 0,
+        "max": 1.0,
+        "description": "Optimal range for minimal dietary mercury exposure"
+      }
+    },
+    "total_cholesterol": {
+      "biomarker_name": "Total Cholesterol",
+      "units": "mg/dL",
+      "ranges": {
+        "optimal": {
+          "min": 0,
+          "max": 200,
+          "description": "Optimal cholesterol level"
+        },
+        "borderline_high": {
+          "min": 200,
+          "max": 239,
+          "description": "Borderline high, lifestyle changes recommended"
+        },
+        "high": {
+          "min": 240,
+          "max": 999,
+          "description": "High cholesterol, medical intervention may be needed"
+        }
+      },
+      "optimal_range": {
+        "min": 150,
+        "max": 200,
+        "description": "Optimal range for cardiovascular health"
+      }
+    },
+    "ldl_cholesterol": {
+      "biomarker_name": "LDL Cholesterol",
+      "units": "mg/dL",
+      "ranges": {
+        "optimal": {
+          "min": 0,
+          "max": 100,
+          "description": "Optimal LDL level"
+        },
+        "near_optimal": {
+          "min": 100,
+          "max": 129,
+          "description": "Near optimal/above optimal"
+        },
+        "borderline_high": {
+          "min": 130,
+          "max": 159,
+          "description": "Borderline high"
+        },
+        "high": {
+          "min": 160,
+          "max": 189,
+          "description": "High LDL"
+        },
+        "very_high": {
+          "min": 190,
+          "max": 999,
+          "description": "Very high LDL"
+        }
+      },
+      "optimal_range": {
+        "min": 50,
+        "max": 100,
+        "description": "Optimal range for cardiovascular protection"
+      }
+    },
+    "hdl_cholesterol": {
+      "biomarker_name": "HDL Cholesterol",
+      "units": "mg/dL",
+      "ranges": {
+        "low": {
+          "min": 0,
+          "max": 40,
+          "description": "Low HDL, increased cardiovascular risk"
+        },
+        "borderline": {
+          "min": 40,
+          "max": 59,
+          "description": "Borderline HDL level"
+        },
+        "high": {
+          "min": 60,
+          "max": 999,
+          "description": "High HDL, protective factor"
+        }
+      },
+      "optimal_range": {
+        "min": 50,
+        "max": 80,
+        "description": "Optimal HDL range for cardiovascular protection"
+      }
+    },
+    "triglycerides": {
+      "biomarker_name": "Triglycerides",
+      "units": "mg/dL",
+      "ranges": {
+        "normal": {
+          "min": 0,
+          "max": 150,
+          "description": "Normal triglyceride level"
+        },
+        "borderline_high": {
+          "min": 150,
+          "max": 199,
+          "description": "Borderline high"
+        },
+        "high": {
+          "min": 200,
+          "max": 499,
+          "description": "High triglycerides"
+        },
+        "very_high": {
+          "min": 500,
+          "max": 999,
+          "description": "Very high triglycerides"
+        }
+      },
+      "optimal_range": {
+        "min": 50,
+        "max": 100,
+        "description": "Optimal range for metabolic health"
+      }
+    },
+    "glucose_fasting": {
+      "biomarker_name": "Glucose, Fasting",
+      "units": "mg/dL",
+      "ranges": {
+        "normal": {
+          "min": 70,
+          "max": 99,
+          "description": "Normal fasting glucose"
+        },
+        "prediabetes": {
+          "min": 100,
+          "max": 125,
+          "description": "Prediabetes/impaired fasting glucose"
+        },
+        "diabetes": {
+          "min": 126,
+          "max": 999,
+          "description": "Diabetes mellitus"
+        }
+      },
+      "optimal_range": {
+        "min": 80,
+        "max": 90,
+        "description": "Optimal fasting glucose for metabolic health"
+      }
+    },
+    "hemoglobin_a1c": {
+      "biomarker_name": "Hemoglobin A1c",
+      "units": "%",
+      "ranges": {
+        "normal": {
+          "min": 0,
+          "max": 5.6,
+          "description": "Normal glucose metabolism"
+        },
+        "prediabetes": {
+          "min": 5.7,
+          "max": 6.4,
+          "description": "Prediabetes"
+        },
+        "diabetes": {
+          "min": 6.5,
+          "max": 15,
+          "description": "Diabetes mellitus"
+        }
+      },
+      "optimal_range": {
+        "min": 4.5,
+        "max": 5.2,
+        "description": "Optimal HbA1c for longevity"
+      }
+    }
+  },
+  "age_specific_ranges": {
+    "vitamin_d": {
+      "pediatric": {
+        "age_range": "0-18 years",
+        "deficiency_threshold": 20,
+        "sufficiency_threshold": 30,
+        "notes": "Higher needs during rapid growth periods"
+      },
+      "adult": {
+        "age_range": "19-65 years",
+        "deficiency_threshold": 20,
+        "sufficiency_threshold": 30,
+        "notes": "Standard adult reference ranges"
+      },
+      "elderly": {
+        "age_range": "65+ years",
+        "deficiency_threshold": 20,
+        "sufficiency_threshold": 30,
+        "notes": "May need higher intake due to reduced synthesis"
+      }
+    }
+  },
+  "gender_specific_ranges": {
+    "hdl_cholesterol": {
+      "male": {
+        "low": 40,
+        "optimal_min": 45,
+        "optimal_max": 75
+      },
+      "female": {
+        "low": 50,
+        "optimal_min": 55,
+        "optimal_max": 85
+      }
+    }
+  }
+}

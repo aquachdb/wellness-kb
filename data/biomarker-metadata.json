@@ -1,0 +1,333 @@
+{
+  "biomarkers": {
+    "vitamin_d": {
+      "name": "25-Hydroxyvitamin D",
+      "common_names": ["Vitamin D", "25(OH)D", "Calcidiol"],
+      "category": "Vitamin",
+      "subcategory": "Fat-soluble vitamin",
+      "clinical_significance": "Primary marker for vitamin D status and bone health",
+      "specimen_type": "Serum",
+      "fasting_required": false,
+      "half_life": "15-25 days",
+      "functions": [
+        "Calcium absorption regulation",
+        "Bone mineralization",
+        "Immune system modulation",
+        "Cell growth regulation",
+        "Neuromuscular function"
+      ],
+      "factors_affecting_levels": {
+        "increasing": [
+          "Sun exposure (UVB radiation)",
+          "Vitamin D supplementation",
+          "Fatty fish consumption",
+          "Fortified food intake",
+          "Lower latitude residence",
+          "Lighter skin pigmentation",
+          "Younger age"
+        ],
+        "decreasing": [
+          "Limited sun exposure",
+          "Indoor lifestyle",
+          "Dark skin pigmentation",
+          "Older age",
+          "Obesity",
+          "Malabsorption disorders",
+          "Kidney disease",
+          "Liver disease",
+          "Certain medications"
+        ]
+      },
+      "symptoms_of_deficiency": [
+        "Bone pain and tenderness",
+        "Muscle weakness",
+        "Increased fracture risk",
+        "Dental problems",
+        "Frequent infections",
+        "Fatigue",
+        "Depression",
+        "Hair loss"
+      ],
+      "associated_conditions": [
+        "Osteoporosis",
+        "Rickets",
+        "Osteomalacia",
+        "Autoimmune diseases",
+        "Cardiovascular disease",
+        "Cancer risk",
+        "Depression",
+        "Multiple sclerosis"
+      ],
+      "testing_considerations": {
+        "seasonal_variation": true,
+        "diurnal_variation": false,
+        "exercise_effects": "Minimal",
+        "medication_interactions": ["Glucocorticoids", "Anticonvulsants", "Thiazide diuretics"]
+      }
+    },
+    "mercury_blood": {
+      "name": "Mercury, Blood",
+      "common_names": ["Blood Mercury", "Hg"],
+      "category": "Heavy Metal",
+      "subcategory": "Toxic metal",
+      "clinical_significance": "Marker of recent mercury exposure, primarily methylmercury",
+      "specimen_type": "Whole blood",
+      "fasting_required": false,
+      "half_life": "70 days",
+      "functions": [
+        "No beneficial biological function",
+        "Toxic to nervous system",
+        "Interferes with enzyme function",
+        "Causes oxidative stress"
+      ],
+      "sources_of_exposure": [
+        "Fish consumption (methylmercury)",
+        "Dental amalgams",
+        "Industrial exposure",
+        "Broken thermometers",
+        "Fluorescent bulbs",
+        "Coal burning emissions"
+      ],
+      "health_effects": [
+        "Neurological damage",
+        "Kidney damage",
+        "Cardiovascular effects",
+        "Immune system dysfunction",
+        "Developmental delays",
+        "Reproductive issues"
+      ],
+      "symptoms_of_toxicity": [
+        "Memory problems",
+        "Mood changes",
+        "Tremors",
+        "Numbness and tingling",
+        "Vision changes",
+        "Hearing problems",
+        "Coordination difficulties"
+      ],
+      "testing_considerations": {
+        "reflects_exposure_period": "Past 2-3 months",
+        "fish_consumption_effect": "Significant",
+        "chelation_therapy_monitoring": true,
+        "occupational_screening": true
+      }
+    },
+    "mercury_hair": {
+      "name": "Mercury, Hair",
+      "common_names": ["Hair Mercury", "Hg Hair"],
+      "category": "Heavy Metal",
+      "subcategory": "Toxic metal",
+      "clinical_significance": "Integrated marker of methylmercury exposure over time",
+      "specimen_type": "Hair sample",
+      "fasting_required": false,
+      "represents_timeframe": "2-3 months",
+      "advantages": [
+        "Non-invasive collection",
+        "Stable at room temperature",
+        "Reflects longer exposure period",
+        "Good correlation with fish consumption"
+      ],
+      "collection_considerations": [
+        "First 3cm closest to scalp",
+        "Posterior vertex preferred",
+        "Avoid chemically treated hair",
+        "Clean scissors required"
+      ],
+      "limitations": [
+        "Hair treatments may affect results",
+        "Not suitable for bald individuals",
+        "Primarily reflects methylmercury",
+        "Less sensitive to inorganic mercury"
+      ]
+    },
+    "total_cholesterol": {
+      "name": "Total Cholesterol",
+      "common_names": ["TC", "Cholesterol"],
+      "category": "Lipid",
+      "subcategory": "Sterol",
+      "clinical_significance": "Overall cardiovascular risk assessment",
+      "specimen_type": "Serum/Plasma",
+      "fasting_required": false,
+      "functions": [
+        "Cell membrane structure",
+        "Hormone synthesis",
+        "Bile acid production",
+        "Vitamin D synthesis"
+      ],
+      "components": [
+        "LDL cholesterol",
+        "HDL cholesterol",
+        "VLDL cholesterol"
+      ],
+      "factors_affecting_levels": {
+        "increasing": [
+          "Saturated fat intake",
+          "Trans fat consumption",
+          "Genetics",
+          "Hypothyroidism",
+          "Diabetes",
+          "Kidney disease",
+          "Certain medications"
+        ],
+        "decreasing": [
+          "Aerobic exercise",
+          "Weight loss",
+          "High fiber diet",
+          "Plant stanols/sterols",
+          "Statin medications",
+          "Hyperthyroidism"
+        ]
+      }
+    },
+    "ldl_cholesterol": {
+      "name": "LDL Cholesterol",
+      "common_names": ["LDL-C", "Bad cholesterol", "Low-density lipoprotein"],
+      "category": "Lipid",
+      "subcategory": "Lipoprotein",
+      "clinical_significance": "Primary target for cardiovascular disease prevention",
+      "specimen_type": "Serum/Plasma",
+      "fasting_required": "Preferred for accuracy",
+      "calculation_method": "Friedewald equation or direct measurement",
+      "atherogenic_potential": "High",
+      "oxidation_susceptibility": "High",
+      "particle_size_importance": "Small dense LDL more atherogenic"
+    },
+    "hdl_cholesterol": {
+      "name": "HDL Cholesterol",
+      "common_names": ["HDL-C", "Good cholesterol", "High-density lipoprotein"],
+      "category": "Lipid",
+      "subcategory": "Lipoprotein",
+      "clinical_significance": "Protective factor against cardiovascular disease",
+      "specimen_type": "Serum/Plasma",
+      "fasting_required": false,
+      "protective_mechanisms": [
+        "Reverse cholesterol transport",
+        "Anti-inflammatory effects",
+        "Antioxidant properties",
+        "Endothelial protection"
+      ],
+      "functionality_factors": [
+        "HDL particle number",
+        "HDL particle size",
+        "Cholesterol efflux capacity",
+        "HDL subfractions"
+      ]
+    },
+    "triglycerides": {
+      "name": "Triglycerides",
+      "common_names": ["TG", "Triacylglycerols"],
+      "category": "Lipid",
+      "subcategory": "Neutral fat",
+      "clinical_significance": "Cardiovascular risk and metabolic health indicator",
+      "specimen_type": "Serum/Plasma",
+      "fasting_required": true,
+      "postprandial_variation": "Significant increase after meals",
+      "metabolic_roles": [
+        "Energy storage",
+        "Energy transport",
+        "Insulation",
+        "Organ protection"
+      ],
+      "factors_affecting_levels": {
+        "increasing": [
+          "High carbohydrate diet",
+          "Alcohol consumption",
+          "Obesity",
+          "Insulin resistance",
+          "Sedentary lifestyle",
+          "Genetic factors"
+        ],
+        "decreasing": [
+          "Weight loss",
+          "Aerobic exercise",
+          "Omega-3 fatty acids",
+          "Low carbohydrate diet",
+          "Fibrate medications"
+        ]
+      }
+    },
+    "glucose_fasting": {
+      "name": "Glucose, Fasting",
+      "common_names": ["FPG", "Fasting blood sugar", "FBS"],
+      "category": "Carbohydrate",
+      "subcategory": "Monosaccharide",
+      "clinical_significance": "Diabetes screening and glucose metabolism assessment",
+      "specimen_type": "Serum/Plasma",
+      "fasting_required": true,
+      "fasting_duration": "8-12 hours",
+      "physiological_regulation": [
+        "Insulin (decreases glucose)",
+        "Glucagon (increases glucose)",
+        "Cortisol (increases glucose)",
+        "Growth hormone (increases glucose)"
+      ],
+      "factors_affecting_levels": {
+        "increasing": [
+          "Diabetes mellitus",
+          "Stress",
+          "Illness/infection",
+          "Certain medications",
+          "Pancreatic disorders"
+        ],
+        "decreasing": [
+          "Insulin excess",
+          "Liver disease",
+          "Adrenal insufficiency",
+          "Alcohol consumption",
+          "Starvation"
+        ]
+      }
+    },
+    "hemoglobin_a1c": {
+      "name": "Hemoglobin A1c",
+      "common_names": ["HbA1c", "A1C", "Glycated hemoglobin"],
+      "category": "Protein",
+      "subcategory": "Glycated protein",
+      "clinical_significance": "Long-term glucose control assessment",
+      "specimen_type": "Whole blood",
+      "fasting_required": false,
+      "reflects_timeframe": "2-3 months",
+      "formation_mechanism": "Non-enzymatic glycation of hemoglobin",
+      "advantages": [
+        "No fasting required",
+        "Not affected by acute stress",
+        "Reflects average glucose over time",
+        "Standardized measurement"
+      ],
+      "limitations": [
+        "Affected by hemoglobin variants",
+        "Altered red blood cell lifespan affects results",
+        "Less sensitive to recent changes",
+        "May not reflect postprandial excursions"
+      ],
+      "correlation_with_glucose": "Each 1% increase in HbA1c ≈ 28 mg/dL average glucose increase"
+    }
+  },
+  "biomarker_relationships": {
+    "vitamin_d_calcium": {
+      "relationship": "Positive correlation",
+      "description": "Vitamin D enhances calcium absorption",
+      "clinical_relevance": "Both needed for bone health"
+    },
+    "mercury_selenium": {
+      "relationship": "Protective interaction",
+      "description": "Selenium may protect against mercury toxicity",
+      "clinical_relevance": "Adequate selenium important with mercury exposure"
+    },
+    "cholesterol_ratios": {
+      "total_hdl_ratio": {
+        "optimal": "<3.5",
+        "description": "Total cholesterol to HDL ratio"
+      },
+      "ldl_hdl_ratio": {
+        "optimal": "<2.5",
+        "description": "LDL to HDL cholesterol ratio"
+      }
+    },
+    "glucose_insulin": {
+      "relationship": "Inverse correlation in health",
+      "description": "Higher insulin resistance leads to higher glucose",
+      "assessment": "HOMA-IR calculation"
+    }
+  }
+}
