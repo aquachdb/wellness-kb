@@ -1,3 +1,7 @@
+---
+title: "Z-Score"
+description: "Understanding standard deviations from the mean"
+---
 # Z-Score
 
 ## Definition
